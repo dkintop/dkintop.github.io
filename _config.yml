@@ -1,11 +1,11 @@
 # Site settings
 author: Doug Kintop
-title: 
+title: Doug Kintop
 header-img: img/home-bg.png
 email: dkintop@hotmail.com
 copyright_name: Doug Kintop
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Student software engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  dkintop
