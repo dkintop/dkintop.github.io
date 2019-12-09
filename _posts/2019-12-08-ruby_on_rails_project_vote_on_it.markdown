@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Ruby on rails project: Vote On It"
-date:       2019-12-09 00:46:26 +0000
+date:       2019-12-08 19:46:27 -0500
 permalink:  ruby_on_rails_project_vote_on_it
 ---
 
@@ -32,7 +32,7 @@ I began by figuring out the logic behind what I was trying to accomplish and fig
     end
 ```
 
-at this point I thought I had nailed it, but also knew that there was a high probability of there being an error since, well, there almost always is at first when I attempt to insert logic into a controller action. So I ran it and got back the all to familiar "NoMethodError in Votes#create" with the line "<%=@subject.title%> in the view highlited. I realized at this point that it was attempting to render our new vote page without knowing at this point what @subject was, since the re render cleared that insance variable from memory. So I decided to try a redirect_to new_subject_vote_path(@vote.subject) to solve that issue as opposed to re rendering the new action. this solved the initial problem, and now our create action looked like this:
+at this point I thought I had nailed it, but also knew that there was a high probability of there being an error since, well, there almost always is at first when I attempt to insert logic into a controller action. So I ran it and got back the all to familiar "NoMethodError in Votes#create" with the line "<%=@subject.title%> in the view highlited. I realized at this point that it was attempting to render our new vote page without knowing at this point what @subject was, since the re render cleared that insance variable from memory. So I decided to try a redirect_to new_subject_vote_path(@vote.subject) to solve that issue as opposed to re rendering the :new page. this solved the initial problem, and now our create action looked like this:
 
 ```
 def create 
