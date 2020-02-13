@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React-Redux Project: REACTion Speed Tester and a fun coding challenge "
-date:       2020-02-13 20:12:39 +0000
+date:       2020-02-13 15:12:40 -0500
 permalink:  react-redux_project_reaction_speed_tester_and_a_fun_coding_challenge
 ---
 
