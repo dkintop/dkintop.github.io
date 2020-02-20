@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Explaining The Sort() Function In Javascript"
-date:       2020-02-20 22:05:15 +0000
+date:       2020-02-20 17:05:16 -0500
 permalink:  explaining_the_sort_function_in_javascript
 ---
 
@@ -39,7 +39,7 @@ The function passed in as a parameter should return a negative integer, 0, or a 
 const array = ["blue", "orange", "green", "red", "blue", "yellow", "blue"];
 
  array.sort(function(element1, element2) {
-  if (element1 === "blue" && element2 !== "blue") {
+  if (element1 === "blue") {
     return 1;
   } else {
     return -1;
