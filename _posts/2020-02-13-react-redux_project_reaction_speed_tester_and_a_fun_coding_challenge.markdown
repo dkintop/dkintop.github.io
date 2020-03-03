@@ -127,6 +127,7 @@ Now that that beast was tamed, it was time to get back to figuring out how to re
 I remembered reading somewhere something along the lines of "no one is going to be impressed if you reinvent the wheel," meaning that you will never get bonus points for writing code yourself that you could have gotten from somewehere else. Therefore I opted to find a sorting algorithm somewhere and imported that into my ActiveGameTile component file and used that to then shuffle my matrix array, which would put the ActiveGameTile component in a new position each time it was called, and then use the return value of that function to render the game tiles, like this! 
 
 
+```
 import { shuffle } from "../algorithms/shuffle.js";
 import ActiveGameTile from "./ActiveGameTile.js";
 
@@ -153,6 +154,7 @@ export class Game extends Component {
   render() {
     return <div className="game-board">{this.shuffledMatrix()}</div>;
   }
+```
 	
-	Boom! Now each time the Game component mounts the active tile will be rendered in a new position on the grid! This project as a whole was really fun and I really developed a love for react, and even redux (which I hated until I was about midway through the project.). Before this project I was certain I wanted nothing to do with front end UI development, now I can't stop playing with it! 
 
+	Boom! Now each time the Game component mounts the active tile will be rendered in a new position on the grid! This project as a whole was really fun and I really developed a love for react, and even redux (which I hated until I was about midway through the project.). Before this project I was certain I wanted nothing to do with front end UI development, now I can't stop playing with it! 
