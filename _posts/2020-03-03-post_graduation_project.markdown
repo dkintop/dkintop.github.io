@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Post Graduation Project"
-date:       2020-03-03 20:01:47 +0000
+date:       2020-03-03 15:01:48 -0500
 permalink:  post_graduation_project
 ---
 
@@ -25,7 +25,8 @@ In order to accomplish this functionality, I know I will need features that incl
 * a feature that compiles all patient data and presents in a logical and visually appealing way to monitor score progress.
 * a simple way for users to select a patient, a test to administer,  and then be presented with a form to easily input test scores and generate a result based on the individual tests scoring parameters.
 
-I plan to build this project using a back end rails api to manage the databases and using a React front end to create a simple yet appealing UI that people will want to use. There is a lot of knowledge that I will need to seek out in order to develop this as there are several features I have no experience in implementing, But I think it will give me a great  
+I plan to build this project using a back end rails api to manage the databases and using a React front end to create a simple yet appealing UI that people will want to use. There is a lot of knowledge that I will need to seek out in order to develop this as there are several features I have no experience in implementing, But I think it will give me a great  learning experience and will be a great portfolio piece once finished!
+
 
 
 
