@@ -21,7 +21,7 @@ In order to accomplish this functionality, I know I will need features that incl
 
 * facility accounts, user accounts that belong to a facility, and patient profiles(patient profiles stored in database will not be hippa compliant in development build, this is one aspect that will need to be addressed if application were to go into production phase.)
 * facility accounts would need an admin panel at some point to add users to facility(perhaps user accounts can only be created through the admin panel of the facility?)
-* a feature to converts an html document into a pdf
+* a feature to convert an html document into a pdf
 * a feature that compiles all patient data and presents in a logical and visually appealing way to monitor score progress.
 * a simple way for users to select a patient, a test to administer,  and then be presented with a form to easily input test scores and generate a result based on the individual tests scoring parameters.
 
